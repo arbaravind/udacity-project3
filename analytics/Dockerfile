@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the requirements.txt file into the container
-COPY requirements.txt /app/
+COPY analytics/requirements.txt /app/
 
 # Install dependencies
 RUN apt-get update -y && apt install -y build-essential libpq-dev && \
