@@ -13,7 +13,9 @@ RUN apt-get update -y && apt install -y build-essential libpq-dev && \
     pip install -r requirements.txt
 
 # Copy the rest of the application code into the container
-COPY . /app/
+COPY analytics/app.py /app/
+COPY analytics/config.py /app/
+
 
 # Expose the port your app runs on (e.g., port 5153 for Flask apps)
 EXPOSE 5153
