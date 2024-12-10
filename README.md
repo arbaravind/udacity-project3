@@ -65,6 +65,6 @@ In the `analytics/` directory:
 
 ![](images/uda7.png)
 
-- AWS CloudWatch Container Insights logs for the application
+- AWS CloudWatch Container Insights logs for the applications
 
 ![](images/uda8.png)
