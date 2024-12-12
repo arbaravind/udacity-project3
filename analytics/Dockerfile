@@ -1,5 +1,5 @@
 # Use a Python slim image as the base image
-FROM 739244444072.dkr.ecr.us-east-1.amazonaws.com/api-service-img-redo:python:3.9-slim
+FROM python:3.9-slim
 
 # Set the working directory inside the container
 WORKDIR /app
