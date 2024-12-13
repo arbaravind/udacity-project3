@@ -15,7 +15,7 @@ This project deploys a Coworking Space microservice using Kubernetes, Docker, an
 1. AWS CodeBuild - build Docker images remotely
 2. AWS ECR - host Docker images
 3. Kubernetes Environment with AWS EKS - run applications in k8s
-4. AWS CloudWatch - monitor activity and logs in EKS
+4. AWS CloudWatch - monitor activity and logs in EKS.
 
 
 ### Setup
