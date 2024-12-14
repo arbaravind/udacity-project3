@@ -38,8 +38,7 @@ In the `analytics/` directory:
 
 - start build
 
-![](images/uda1.png)
-![](images/uda2.png)
+![](images/uda-redo1.png)
 
 - Images in ECR
 
@@ -55,7 +54,7 @@ In the `analytics/` directory:
 
 - kubectl get pods
 
-![](images/uda5.png)
+![](images/uda-redo2.png)
 
 - kubectl describe svc <DATABASE_SERVICE_NAME>
 
@@ -63,8 +62,8 @@ In the `analytics/` directory:
 
 - kubectl describe deployment <SERVICE_NAME>
 
-![](images/uda7.png)
+![](images/uda-redo3.png)
 
 - AWS CloudWatch Container Insights logs for the applications.
 
-![](images/uda8.png)
+![](images/uda-redo4.png)
