@@ -61,6 +61,7 @@ DOCKERHUB_USERNAME		arbaravind
 ### 5. Create a private repository in ECR for docker images
 
 1. created my `buildspec.yaml` in the root folder: to automate docker build and push it to the ECR
+2. Dockerfile is inside analytics folder
 
 - start build
 
