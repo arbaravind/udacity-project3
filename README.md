@@ -18,7 +18,7 @@ This project deploys a Coworking Space microservice using Kubernetes, Docker, an
 4. AWS CloudWatch - monitor activity and logs in EKS
 
 
-Updated by Aravind on 16th April
+Updated by Aravind on 16th April 2025
 ---------------------------------
 
 
